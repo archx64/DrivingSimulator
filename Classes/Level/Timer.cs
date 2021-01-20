@@ -6,10 +6,11 @@ public class Timer : MonoBehaviour
 {
     private Text text;
 
-    public static float time = 90;
+    public static float time;
     private void Start()
     {
         text = GetComponent<Text>();
+        time = 90;
     }
 
     private void Update()
